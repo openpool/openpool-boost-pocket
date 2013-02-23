@@ -1,28 +1,6 @@
-openpool-boost-pocket
-================================================================
-Copyright (C) 2013 Kazunori Ogasawara and Jun Kato
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+import processing.serial.*;
+import openpool.pocket.*;
 
-A boost module for openpool library.
-
-## How to use
-
-### Extract a zip archive
-
-Extract contents of OpenPoolBoostPocket.zip into Processing
-library directory. All files should reside in its subdirectory
-e.g.
-
-C:\Users\hoge\Documents\Processing\libraries\OpenpoolBoostPocket
-
-### Write code
-
-Select "Serial I/O" and "OpenpoolBoostPocket" from Sketch >
-Import Library... menu.
-
-```java
-Serial serial;
-OpenpoolBoostPocket obp;
 setup() {
   // List all the available serial ports
   println(Serial.list());
@@ -53,11 +31,4 @@ loop() {
     }
   }
 }
-```
 
-## License
-
-This work is licensed under GNU GPL, Version 2.0.
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-http://github.com/openpool/openpool-boost-pocket-detector
