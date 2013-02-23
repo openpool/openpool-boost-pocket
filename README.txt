@@ -61,4 +61,4 @@ loop() {
 This work is licensed under GNU GPL, Version 2.0.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-http://github.com/openpool/openpool-boost-pocket-detector
+http://github.com/openpool/openpool-boost-pocket
