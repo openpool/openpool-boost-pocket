@@ -15,42 +15,55 @@ e.g.
 
 C:\Users\hoge\Documents\Processing\libraries\OpenpoolBoostPocket
 
+### Prepare proper RXTX library
+
+Default RXTX library in OpenpoolBoostPocket/library directory is
+for Windows with 64bit Java VM. If you're running Processing in
+another configuration, e.g. Windows with 32bit Java VM or Mac OS
+with 64bit Java VM, please download proper RXTX library from
+[its official website](rxtx.qbang.org/wiki/index.php/Download)
+and extract files into the directory.
+
 ### Write code
 
-Select "Serial I/O" and "OpenpoolBoostPocket" from Sketch >
-Import Library... menu.
+Select "OpenpoolBoostPocket" from Sketch > Import Library...
+menu.
 
 ```java
-Serial serial;
+import openpool.pocket.*;
+
 OpenpoolBoostPocket obp;
 
-setup() {
-  // List all the available serial ports
-  println(Serial.list());
-  // Open the port you are using at the rate you want:
-  myPort = new Serial(this, Serial.list()[0], 9600);
+void setup() {
   // Connect to the pocket detector.
-  opb = new OpenpoolBoostPocket(this, serial);
-  opb.start();
+  try {
+    obp = new OpenpoolBoostPocket(this, "COM4");
+    obp.start();
+  } catch (Exception e) {
+    println("Pocket detector not found.");
+  }
 }
 
-loop() {
+void draw() {
+  if (obp == null) return;
+
   // When you want to know the total pockets, call
   // getTotalPockets() method.
-  int[] totalPockets = opb.getTotalPockets();
-  
+  int[] totalPockets = obp.getTotalPockets();
+
   // You might sometimes want to call resetTotal() to reset the
   // total numbers.
-  //opb.resetTotal();
+  //obp.resetTotal();
 
   // When you want to know if there's any pocket after the last
   // frame, call getPockets() method.
-  int[] pockets = opb.getPockets();
+  
+  int[] pockets = obp.getPockets();
   for (int i = 0; i < pockets.length; i ++) {
     if (pockets[i] > 0) {
       print(pockets[i]);
       print(" balls fell in the pocket no.");
-      println(i + 1));
+      println(i + 1);
     }
   }
 }
