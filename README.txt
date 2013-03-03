@@ -21,7 +21,7 @@ Default RXTX library in OpenpoolBoostPocket/library directory is
 for Windows with 64bit Java VM. If you're running Processing in
 another configuration, e.g. Windows with 32bit Java VM or Mac OS
 with 64bit Java VM, please download proper RXTX library from
-[its official website](rxtx.qbang.org/wiki/index.php/Download)
+[its official website](http://rxtx.qbang.org/wiki/index.php/Download)
 and extract files into the directory.
 
 ### Write code
