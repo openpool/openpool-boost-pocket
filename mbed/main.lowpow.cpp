@@ -2,6 +2,9 @@
 Ball detector for openpool (openpool.cc)
 Originally wrote by Kazunori Ogasawara, taken over by Shinya Shimizu (@kakenman)
 July 14, 2013 updated by @kakenman
+Sep 18, 2013 power saving function added by @kakenman. To use this version, you have to install custom firmware described below.
+http://mbed.org/users/simon/notebook/interface-powerdown/
+
 */
 #include "mbed.h"
 
