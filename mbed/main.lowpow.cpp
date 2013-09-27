@@ -4,7 +4,6 @@ Originally wrote by Kazunori Ogasawara, taken over by Shinya Shimizu (@kakenman)
 July 14, 2013 updated by @kakenman
 Sep 18, 2013 power saving function added by @kakenman. To use this version, you have to install custom firmware described below.
 http://mbed.org/users/simon/notebook/interface-powerdown/
-
 */
 #include "mbed.h"
 
@@ -110,10 +109,16 @@ int main()
             buff = pc.getc();
             if(buff == 'r') {        //check command
                 for(i=0; i<6; i++) {      //send data
-                    pc.printf("%u\n",fallCount[i]);
+                    pc.printf("%u",fallCount[i]);
+                    if(i<5)
+                    {
+                        pc.printf(",");
+                    }                    
                     fallCount[i] = 0;
                 }
+                pc.printf("\n");
             }
+
             if(buff == 's') {
                 pc.printf("measurement start\n");
                 myled0 = 1;
