@@ -72,7 +72,7 @@ namespace Pocket_detector_interface
             {
                 byte[] buf = new byte[] { (byte)'r' };
                 myPort.Write(buf, 0, buf.Length);
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
                 buf = read_serial_port();
                 String serial_str = Encoding.ASCII.GetString(buf);
                 Invoke(new add_text_delegate(add_text),serial_str);

@@ -1,20 +1,10 @@
-﻿/*
- * Openpool.cc
- * The interface between pocket detector and Unity.
- * This program reads the state of pocket detector on a serial communication and sends OSC packets to Unity over UDP.
- * Baud rate (115200) and port number (7000) are hard-coded.
- * 
- * This program uses Makecontroller (http://code.google.com/p/makecontroller/), an Apache Licensed open source library.
- *
-*/
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MakingThings;
 
-namespace Pocket_detector_interface
+namespace OSC_receiver_dummy
 {
     static class Program
     {
