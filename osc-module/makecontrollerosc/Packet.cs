@@ -369,8 +369,7 @@ namespace MakingThings
       if (!IsOpen())
         Open();
       if (!IsOpen())
-        return; 
-      
+        return;
       Sender.Send(packet, length, remoteHostName, remotePort);
     }
 
