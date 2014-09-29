@@ -1,0 +1,4 @@
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\makecontrollerosc\bin\Release\MakeControllerOsc.dll
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\makecontrollerosc\bin\Release\MakeControllerOsc.pdb
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\makecontrollerosc\obj\Release\MakeControllerOsc.dll
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\makecontrollerosc\obj\Release\MakeControllerOsc.pdb

@@ -1,0 +1,20 @@
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\bin\Release\OSC_receiver_dummy.exe.config
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\bin\Release\OSC_receiver_dummy.exe
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\bin\Release\OSC_receiver_dummy.pdb
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\bin\Release\MakeControllerOsc.dll
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.Form1.resources
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.Properties.Resources.resources
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.csproj.GenerateResource.Cache
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.exe
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.pdb
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.csprojResolveAssemblyReference.cache
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\bin\Release\OSC_receiver_dummy.exe.config
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.exe
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.pdb
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\bin\Release\OSC_receiver_dummy.exe
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\bin\Release\OSC_receiver_dummy.pdb
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\bin\Release\MakeControllerOsc.dll
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.csprojResolveAssemblyReference.cache
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.Form1.resources
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.Properties.Resources.resources
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\OSC_receiver_dummy\OSC_receiver_dummy\obj\Release\OSC_receiver_dummy.csproj.GenerateResource.Cache

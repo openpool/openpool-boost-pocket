@@ -1,0 +1,10 @@
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\bin\Debug\OSC_receiver_dummy.exe.config
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\bin\Debug\OSC_receiver_dummy.exe
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\bin\Debug\OSC_receiver_dummy.pdb
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\bin\Debug\MakeControllerOsc.dll
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Debug\OSC_receiver_dummy.csprojResolveAssemblyReference.cache
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Debug\OSC_receiver_dummy.Form1.resources
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Debug\OSC_receiver_dummy.Properties.Resources.resources
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Debug\OSC_receiver_dummy.csproj.GenerateResource.Cache
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Debug\OSC_receiver_dummy.exe
+c:\users\信哉\documents\visual studio 2012\Projects\OSC_receiver_dummy\OSC_receiver_dummy\obj\Debug\OSC_receiver_dummy.pdb

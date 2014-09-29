@@ -1,0 +1,19 @@
+c:\users\信哉\documents\visual studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\bin\Debug\Pocket_detector_interface.exe.config
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\bin\Debug\Pocket_detector_interface.exe
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\bin\Debug\Pocket_detector_interface.pdb
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\bin\Debug\MakeControllerOsc.dll
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.csprojResolveAssemblyReference.cache
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.Properties.Resources.resources
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.csproj.GenerateResource.Cache
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.exe
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.pdb
+C:\Users\信哉\Documents\Visual Studio 2012\Projects\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.Form1.resources
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\Pocket_detector_interface\Pocket_detector_interface\bin\Debug\Pocket_detector_interface.exe.config
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.exe
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.pdb
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\Pocket_detector_interface\Pocket_detector_interface\bin\Debug\Pocket_detector_interface.exe
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\Pocket_detector_interface\Pocket_detector_interface\bin\Debug\Pocket_detector_interface.pdb
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\Pocket_detector_interface\Pocket_detector_interface\bin\Debug\MakeControllerOsc.dll
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.Form1.resources
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.Properties.Resources.resources
+C:\Users\信哉\Documents\GitHub\openpool-boost-pocket\osc-module\Pocket_detector_interface\Pocket_detector_interface\obj\Debug\Pocket_detector_interface.csproj.GenerateResource.Cache

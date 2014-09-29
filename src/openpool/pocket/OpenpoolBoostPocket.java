@@ -152,42 +152,45 @@ public class OpenpoolBoostPocket {
 	}
 
 	private void startPolling() {
-		future = ses.scheduleAtFixedRate(new Runnable() {
-			public void run() {
-				try {
-					poll();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}, 33, 33, TimeUnit.MILLISECONDS);
+	    future = ses.scheduleAtFixedRate(new Runnable() {
+	        public void run() {
+	            try {
+	                poll();
+	            } catch (IOException e) {
+	                e.printStackTrace();
+	            }
+	        }
+	    }, 33, 33, TimeUnit.MILLISECONDS);
 	}
 
 	private void stopPolling() {
-		future.cancel(false);
+	    future.cancel(false);
 	}
 
 	private void poll() throws IOException {
-		out.write('r');
-		for (int pocket = 0; pocket < 6; pocket ++) {
-			String message = readString();
-			try {
-				int numPocket = Integer.parseInt(message.trim());
-				pockets[pocket] += numPocket;
-				totalPockets[pocket] += numPocket;
-			} catch (NumberFormatException nfe) {
-				if (isDebug) {
-					System.err.print("pocket detector: "
-							+ "something wrong happened when "
-							+ "parsing info at pocket no.");
-					System.err.println(pocket);
-					System.err.println(message);
-				}
-				pockets[pocket] = -1;
-			}
-		}
+	    out.write('r');
+	    
+	    String message = readString().trim();
+	    String[] pocketStrings = message.split(",");
+	    
+	    for (int pocket = 0; pocket < 6 && pocketStrings.length == 6; pocket++) {
+	        try {
+	            
+	            int numPocket = Integer.parseInt(pocketStrings[pocket].trim());
+	            pockets[pocket] += numPocket;
+	            totalPockets[pocket] += numPocket;
+	        } catch (NumberFormatException nfe) {
+	            if (isDebug) {
+	                System.err.print("pocket detector: "
+	                        + "something wrong happened when "
+	                        + "parsing info at pocket no.");
+	                System.err.println(pocket);
+	                System.err.println(message);
+	            }
+	        }
+	    }
 	}
-	
+
 	private String readString() throws IOException {
 		StringBuilder sb = new StringBuilder();
 
